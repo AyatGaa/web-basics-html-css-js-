@@ -1,0 +1,126 @@
+p, div,span{
+
+    font-family: 'Lucida Calligraphy';
+}
+/*2*/
+#header{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(236, 120, 120);
+}
+#header h1:nth-child(1){
+    text-align: center;
+}
+/*3*/
+#linksbar {
+    width: 25%;
+    height: 70%;
+    background-color: rgb(196, 196, 196);
+    float: left;
+}
+/*4*/
+#content {
+    width: 75%;
+    height: 70%;
+    background-color: pink;
+    float: left;
+}
+/*5*/
+/*b*/
+.none-bullet-list {
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(112, 112, 112);
+    
+}
+
+.none-bullet-list li a{
+    text-decoration: none;
+    color: rgb(146, 139, 136);
+}
+
+/*c*/
+#linksbar li a:hover{
+
+    color: rgb(41, 41, 41);
+    background-color: rgb(203, 199, 199);
+
+}
+/*d*/
+#content p {
+    font-weight: bold;
+    font-size: 12px;
+ /**   font-family: Arial;*/
+}
+
+/*e*/
+#linksbar #loginform{
+    border: rgb(20,70,60) dashed 2px;
+}
+/*f*/
+input[type=text]{
+    background-color: rgb(245, 245, 106);
+}
+
+input[type=text]:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+/*g*/
+.tabled-bordered{
+
+    display: inline;
+    padding: 5;
+    border: rgb(20, 70, 60) solid 2px;
+
+}
+/*6*/
+#aboutus {
+    color:red !important; 
+}
+
+#content #aboutus {
+    color: yellow;
+}
+/*Task 2*/
+
+#menu-btn{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 5px 15px;
+    margin-left: 30%;
+    border-radius: 8%; 
+    cursor: pointer;  
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown .content a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+.dropdown .content{
+    background-color: rgb(110,218,216);
+    min-width: 100px;
+    box-shadow: 2px 2px 2px;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+    
+}
+.dropdown:hover  #menu-btn{
+    background-color: rgb(146, 145, 145);
+}
+
+.dropdown a:hover{
+    background-color: rgb(238, 236, 236);
+}
